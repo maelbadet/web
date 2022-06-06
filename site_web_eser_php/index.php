@@ -2,26 +2,23 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "author" content = "mael badet">
+    <meta name = "keywords" content = "E.S.E.R. ÉLECTRICITÉ, eser, E.S.E.R, ESER, site web, site internet">
+    <meta name = "copyright" content = "mael badet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "generator" content = "Visual Studio Code">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="apple-touche-icon" href="img/favicon.ico">
     <title>E.S.E.R. ÉLECTRICITÉ</title>
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <a href="index.html"><img src="img/logo.jpg" id="logo" alt=""></a>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="realisation.html">nos réalisations</a></li>
-            <li><a href="prestation.html">nos Prestations</a></li>
-            <li><a href="contact.html">nous contacter</a></li>
-        </ul>
-    </nav>
-
-    
-    <h1>site web E.S.E.R. ÉLECTRICITÉ en cours</h1>
-
+   <?php include('entete.php');?>
+    <main>
+    <img src="img/construction.jpg" alt="" id = "modification">
+    </main>
     <div><h2>mettre la vidéo de présentation de l'entreprise</h2></div>
 
     <div><h2>mettre une présentation du cursus du patron de l'entreprise</h2></div>
@@ -35,5 +32,5 @@
 
     </footer>
     
+    </html>
 </body>
-</html>

@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,7 @@
     <title>realisation</title>
 </head>
 <body>
-    <nav>
-        <ul>            
-            <img src="img/logo.jpg" id="logo" alt="">
-            <li> <a href="index.html" id="logo"></a></li>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="realisation.html">nos réalisations</a></li>
-            <li><a href="prestation.html">nos Prestations</a></li>
-            <li><a href="contact.html">nous contacter</a></li>
-        </ul>
-    </nav>
+   <?php include('entete.php');?>
     
 <h1>Nos réalisations</h1>
 <div>

@@ -49,7 +49,11 @@ main{
 }
 #sect:hover{
     transform:scale(1.25);
-    border: solid black;
+}
+
+#sect a {
+    text-decoration: none;
+    color: black;
 }
 
 #realisation{
@@ -151,4 +155,11 @@ footer{
     max-height: 50px;
     padding-right: 1rem;
     padding-bottom: 2rem;
+}
+
+#modification{
+    max-width: 1066px;
+    max-height: 833px;
+    display: flex;
+    justify-content: center;
 }

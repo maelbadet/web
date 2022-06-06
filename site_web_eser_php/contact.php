@@ -1,24 +1,20 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "author" content = "mael badet">
+    <meta name = "keywords" content = "E.S.E.R. ÉLECTRICITÉ, eser, E.S.E.R, ESER, site web, site internet">
+    <meta name = "copyright" content = "mael badet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "generator" content = "Visual Studio Code">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
-    <title>contact</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="apple-touche-icon" href="img/favicon.ico">
+    <title>E.S.E.R. ÉLECTRICITÉ</title>
 </head>
 <body>
-    
-    <nav>
-        <ul>
-            <img src="img/logo.jpg" id="logo" alt="">
-            <li> <a href="index.html" id="logo"></a></li>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="realisation.html">nos réalisations</a></li>
-            <li><a href="prestation.html">nos Prestations</a></li>
-            <li><a href="contact.html">nous contacter</a></li>
-        </ul>
-    </nav>
-
+<?php include('entete.php');?>
 
     <!----------------------Mise en page du formulaire de contat----------->
 
@@ -46,15 +42,8 @@
     </form>
     </div>
     
-    
-<!---------------mise en place du bas de page ----------->
-<footer>
-
-    <a href="https://www.facebook.com/E.S.E.R.ELEC"><img src="img/logo_facebook.png" id="logo_reso" alt=""></a>
-    <a href="https://www.instagram.com/e.s.e.r.electricite.generale/?hl=fr"><img src="img/logo_insta.png" id="logo_reso" alt=""></a>
-    <a href="#"><img src="img/logo_twitter.png" id="logo_reso" alt=""></a>
-
+<footer>    
+  <?php include('footer.php');?>"
 </footer>
-
 </body>
 </html>

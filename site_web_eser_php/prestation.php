@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,36 @@
     <title>prestation</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <img src="img/logo.jpg" id="logo" alt="">
-            <li> <a href="index.html" id="logo"></a></li>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="realisation.html">nos réalisations</a></li>
-            <li><a href="prestation.html">nos Prestations</a></li>
-            <li><a href="contact.html">nous contacter</a></li>
-        </ul>
-    </nav>
+    <?php include('entete.php');?>
 
     <h2>L'entreprise E.S.E.R.ÉLECTRICITÉ propose comme services ci-dessous:</h2>
     <main>
         <section id="sect">
+            <a href="electricite.php">
             <img src="img/photo_electricien.jpg" alt="">
             <p>ici les inforations sur l'électricité</p>
+            </a>
         </section>
 
         <section id="sect">
+            <a href="plomberie.php">
             <img src="img/plomberie.jpg" alt="">
             <p>les informations sur la plomberie</p>
+            </a>
         </section>
 
         <section id="sect">
+            <a href="clim.php">
             <img src="img/climation.jpeg" alt="">
             <p>ici les informations sur les climatisaitons</p>
+            </a>
         </section>
 
-        <section id="sect">            
+        <section id="sect">
+            <a href="vmc.php">            
             <img src="img/vmc.jpg" alt="">
             <p>pour finir les infromations sur les vmc</p>
+            </a>
         </section>
     </main>
 
