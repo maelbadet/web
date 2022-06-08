@@ -34,9 +34,6 @@ a:hover{
     transition-delay: 0.2s;
 }
 
-h2{
-    padding-bottom: 2rem;
-}
 
 main{
     display: flex;
@@ -110,6 +107,7 @@ footer{
     padding-bottom: 2rem;
 }
 
+/* ------------------- mise en place de la photo de maintenance du site --------- */
 #modification{
     max-width: 1066px;
     max-height: 833px;
