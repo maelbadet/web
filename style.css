@@ -16,7 +16,6 @@ img{
 ul{
     display: flex;
     justify-content: space-around;
-    color: white;
     font-size: 2rem;
     padding: 2rem;
 }
@@ -33,8 +32,10 @@ a:hover{
 }
 
 
-main{
+#prestation{
     display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -90,7 +91,7 @@ main{
 
   /* mise en place du footer */
 
-footer{
+#footer{
     
     display: flex;
     flex-direction: row;

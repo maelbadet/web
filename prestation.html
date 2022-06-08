@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>prestation</title>
-</head>
-<body>
-    <nav>
-        <ul>
-           <a href="index.html"><img src="img/logo.jpg" id="logo" alt=""></a>
-            <li> <a href="index.html" id="logo"></a></li>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="realisation.html">nos réalisations</a></li>
-            <li><a href="prestation.html">nos Prestations</a></li>
-            <li><a href="contact.html">nous contacter</a></li>
-        </ul>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <!-- librairie jquery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      
+      <!-- librairie bootstrap -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="all"/>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+          <title>E.S.E.R. ÉLECTRICITÉ</title>
+      </head>
+      <body>
+        
+      
+      <!--test d'un bandeau responsive-->
+      <div class="container-fluid pt-2 text-center">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html"></a>
+          <img src="img/logo.jpg" alt="" id="logo"> 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+           
+          <ul class="navbar-nav mr-auto text-center content">
+            
+                <li class="nav-item"><a class="nav-link " href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link " href="realisation.html">Nos Réalisations</a></li>
+                <li class="nav-item"><a class="nav-link " href="prestation.html">Nos préstations</a></li>
+                <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
+          </ul>
+          </div>
+          </nav>
+          </div>
 
     <h2>L'entreprise E.S.E.R.ÉLECTRICITÉ propose comme services ci-dessous:</h2>
-    <main>
+    <main id="prestation">
         <section id="sect">
             <a href="electricite.html">
             <img src="img/photo_electricien.jpg" alt="">
@@ -52,7 +73,7 @@
 
     
 <!---------------mise en place du bas de page ----------->
-<footer>
+<footer id="footer">
 
     <a href="https://www.facebook.com/E.S.E.R.ELEC"><img src="img/logo_facebook.png" id="logo_reso" alt=""></a>
     <a href="https://www.instagram.com/e.s.e.r.electricite.generale/?hl=fr"><img src="img/logo_insta.png" id="logo_reso" alt=""></a>
