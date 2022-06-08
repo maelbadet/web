@@ -11,13 +11,11 @@ img{
 #logo{
     max-width: 150px;
     max-height: 150px;
-    margin-top: -2rem;
 }
 
 ul{
     display: flex;
     justify-content: space-around;
-    background-color: white;
     color: white;
     font-size: 2rem;
     padding: 2rem;
@@ -113,4 +111,12 @@ footer{
     max-height: 833px;
     display: flex;
     justify-content: center;
+}
+
+/* ---------- media queries ------------ */
+
+@media (max-width: 1250px){
+    nav{
+        font-size: 0.5rem;
+    }
 }
